@@ -1,5 +1,18 @@
 .odd {
-    background-color: rgb(255, 96, 96);
+    background-color: lightcoral;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
+.size-24 {
+    font-size: 24px;
+}
+
+#id-2 {
+    color: blue;
+    font-size: 36px;
+}
+
+#id-4 {
+    background-color: lightgreen;
+    font-weight: 700;
+}

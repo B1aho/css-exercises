@@ -3,8 +3,61 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+.layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header, .footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(132, 83, 23);
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 15px;
+}
+
+.right-links {
+  margin-right: 15px;
+}
+
+.left-links {
+  margin-left: 15px;
+}
+
+li {
+  list-style: none;
 }
 
 img {
@@ -16,6 +69,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px;
 }
 
 input {
